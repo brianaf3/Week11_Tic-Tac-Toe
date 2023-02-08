@@ -7,8 +7,17 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "jquery": "^3.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianaf3/Week11_Tic-Tac-Toe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brianaf3/Week11_Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/brianaf3/Week11_Tic-Tac-Toe#readme",
+  "description": ""
 }

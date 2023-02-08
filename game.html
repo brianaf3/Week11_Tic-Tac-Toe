@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body>
+<body class="container">
     <!-- Tic Tac Toe Board -->
-    <div class="board" id="board">
+    <div class="board" id="board" class="alert alert-success">
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
@@ -23,7 +24,7 @@
     <!--Winner Announcement and Game Reset-->
     <div class="win-msg" id="win-msg">
         <div id="winMsgText"></div>
-        <button id="restartButton">Restart</button>
+        <button id="restartButton" class="btn btn-secondary">Restart</button>
     </div>
 
 
